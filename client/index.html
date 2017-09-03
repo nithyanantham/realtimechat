@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat POC</title>
+</head>
+
+<body>
+  <ul class="pages">
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">From User</h3>
+        <input class="fromuser" type="text" maxlength="14" />
+      </div>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">To User</h3>
+        <input class="touser" type="text" maxlength="14" />
+      </div>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">enter text</h3>
+        <input class="chattext" type="text" maxlength="14000" />
+      </div>
+    </li>
+    <li>
+      <div>
+        <button class="sendbtn">Send</button>
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
